@@ -10,6 +10,8 @@ Using HTML5 And CSS3,Bootstrap Materials,javascript Designed Tribute animation d
 
 This is a personal website that I made for Great Soul,simple human being,smily face
 
+Please If You Like My work Give ⭐⭐⭐⭐
+
 Made with ❤️ using
 
 - Flask framework
