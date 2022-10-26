@@ -426,6 +426,47 @@
                 height: 105px
             }
         }
+	    
+	    body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #d61818;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5DADE2;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #FFD662FF;
+  padding: 10px;
+}
+#cen{
+  text-align: center;
+} 
+.container2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
     </style>
     <link rel="preload" href="/_nuxt/static/1655620458/charity-donation/payload.js" as="script">
     <link rel="preload" href="/_nuxt/static/1655620458/manifest.js" as="script">
@@ -514,7 +555,22 @@ window.onclick = function(event) {
 						<img src="images/lastfilm.jpg">
 						</div>
                         <p><em>Last Film </em> The film is scheduled to be released on 28 October It stars himself and Puneeth Rajkumar in lead roles 2022.</p>
-			    <div class="heart">&#x2665;</div>
+			    	<h2 id="cen">If you<em>Like </em>&nbsp;  My Work </h2>
+<h3 id="cen">let us know your thoughts</h3><br>
+
+<div class="container1">
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeClc3y-cec9SQwinUfz7MRshgyxj9EOtdjWmSYMn7QYbnkMQ/formResponse">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="entry.1902407438" placeholder="Good name..">
+    <label for="subject">Feedback</label>
+    <textarea id="subject" name="entry.704664225" placeholder="Feedback Please..." style="height:100px"></textarea>
+	
+    <div><div class="container2">
+  <img src="images/developpoto.jpg" alt="" style="width:90px">
+</div><p align="right"><input type="submit" value="Send Mesaage"></p></div>
+
+  </form>
+</div>
 						
 						
                 </div>
