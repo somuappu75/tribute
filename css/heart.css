@@ -7,7 +7,7 @@ body {
 /* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
 
 .heart {
-	font-size: 40px;
+	font-size: 20px;
 	color: #e00;
 	animation: beat .25s infinite alternate;
 	transform-origin: center;
