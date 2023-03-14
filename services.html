@@ -261,7 +261,7 @@
 
         .section.details h2 em,
         .section.details h2 span {
-            background: rgba(244, 27, 142, .85098);
+            background: rgba(140, 116, 176);
             padding: 3px 7px;
             font-size: 16px;
             margin-left: 15px;
@@ -272,7 +272,7 @@
             padding: 15px 30px;
             border-radius: 4px;
             font-size: 18px;
-            background: #f41b8e;
+            background: #8C74B0;
             text-decoration: none;
             color: #fff;
             margin: 10px 0;
@@ -467,6 +467,17 @@ input[type=submit]:hover {
   margin-right: 20px;
   border-radius: 50%;
 }
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: yellow;
+                font-family: sans-serif;
+				font-size: 20px;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
     </style>
     <link rel="preload" href="/_nuxt/static/1655620458/charity-donation/payload.js" as="script">
     <link rel="preload" href="/_nuxt/static/1655620458/manifest.js" as="script">
@@ -496,7 +507,7 @@ input[type=submit]:hover {
 						<h2>Services & contributions <span>🤝</span></h2>
 						
 						<!-- Trigger/Open The Modal -->
-						<p>(Click button)
+						<p class="blink">>>&nbsp;Click button</p>
 <a><button id="myBtn"class="button">Shakthidhama ashram</button></a>
 
 <!-- The Modal -->
